@@ -2,8 +2,23 @@
 # 黑神话悟空
 > 参考网站 https://palworldgg.com/
 
-# 静态图片list
+# 网站目录
+## 首页
+### 倒计时组件 
+### 世界观、角色介绍和壁纸视频素材等
+## 世界观
+- 为什么中国的妖怪呈现人形，想变成人 furry
+- 西游记人物分类，
+## 角色介绍
+图片列表页，把各种角色的图片截取，然后点击进入是blog页面
+## 素材
+加个筛选项，有图片 也有视频
+图片 + 视频 列表页
 
+## 关于
+给自己个人网站导流
+
+```
 游戏截图32张
 https://www.heishenhua.com/img/screenshot/screenshot1.jpg
 https://www.heishenhua.com/img/screenshot/screenshot2.jpg
@@ -109,3 +124,6 @@ https://www.heishenhua.com/img/Concept/Concept_langren.jpg
 https://www.heishenhua.com/img/Concept/Concept_lingxudaozhang.jpg
 https://www.heishenhua.com/img/Concept/Concept_tudi.jpg
 https://www.heishenhua.com/img/Concept/Concept_wukong.jpg
+
+```
+
