@@ -1,53 +1,111 @@
-![screenshot](https://mp-bca925c9-72bc-4e92-8c87-d596015241bf.cdn.bspapp.com/2024/06/29/48052030-56853423-SafariLight.png)
 
-# [inWind Landing Page Template](https://landingpage.huglemon.com/)
+# 黑神话悟空
+> 参考网站 https://palworldgg.com/
 
-🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
+# 静态图片list
 
-### What is inWind Landing Page
+游戏截图32张
+https://www.heishenhua.com/img/screenshot/screenshot1.jpg
+https://www.heishenhua.com/img/screenshot/screenshot2.jpg
+https://www.heishenhua.com/img/screenshot/screenshot3.jpg
+https://www.heishenhua.com/img/screenshot/screenshot4.jpg
+https://www.heishenhua.com/img/screenshot/screenshot5.jpg
+https://www.heishenhua.com/img/screenshot/screenshot6.jpg
+https://www.heishenhua.com/img/screenshot/screenshot7.jpg
+https://www.heishenhua.com/img/screenshot/screenshot8.jpg
+https://www.heishenhua.com/img/screenshot/screenshot9.jpg
+https://www.heishenhua.com/img/screenshot/screenshot10.jpg
+https://www.heishenhua.com/img/screenshot/screenshot11.jpg
+https://www.heishenhua.com/img/screenshot/screenshot12.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_013.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_014.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_015.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_016.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_017.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_018.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_019.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_020.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_021.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_022.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_023.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_024.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_025.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_026.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_027.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_028.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_029.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_030.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_031.jpg
+https://www.heishenhua.com/img/screenshot/blackmyth_wukong_screenshot_032.jpg
 
-inWind Landing Page is a Landing Page template developed for global SaaS projects based on Next.js. It is completely open source, free, and offers perfect SEO and multi-language support.
-
-### Why develop inWind Landing Page
-
-1. First, influenced by the big shot @weijunext, I decided to also open source a Landing Page for everyone to choose from;
-2. Secondly, I have also been developing independent B2B websites for traditional factories recently, but my original uni-app development is a SPA project, which is very unfriendly to SEO, so I re-studied Next.js development, which is also a practice project;
-3. Finally, I also hope to use this project to meet more global partners. If it is helpful to you or if you need any other help, you can contact me to exchange ideas~
-
-### Performance and SEO
-
-![Performance and SEO](https://mp-bca925c9-72bc-4e92-8c87-d596015241bf.cdn.bspapp.com/2024/06/29/50354654-99418765-SafariLight.png)
-
-### Third-party libraries used
-
-- [DaisyUI](https://daisyui.com/): Used to implement multi-theme switching and some basic styles (recommended for friends who have never used TailwindCSS, you can try it, you can remember fewer class names)
-- [framer-motion](https://www.framer.com/motion/): Used to complete most of the animation effects
-- [react-icons](https://react-icons.github.io/react-icons/): Recommended for React developers, a very convenient and comprehensive icon library
 
 
-### Online Preview
+游戏壁纸36张
+https://www.heishenhua.com/img/Wallpaper/Wallpaper1.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper2.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper3.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper4.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper5.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper6.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper7.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper8.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper9.jpg
+https://www.heishenhua.com/img/Wallpaper/Wallpaper10.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_011.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_012.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_013.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_014.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_015.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_016.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_017.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_018.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_019.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_020.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_021.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_022.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_023.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_024.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_025.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_026.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_027.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_028.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_029.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_030.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_031.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_032.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_033.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_034.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_035.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_036.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_037.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_038.jpg
+https://www.heishenhua.com/img/Wallpaper/blackmyth_wukong_wallpaper_039.jpg
 
-[landingpage.huglemon.com](https://landingpage.huglemon.com/)
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=huglemon/inwind-landing-page&type=Date)](https://star-history.com/#huglemon/inwind-landing-page&Date)
-
-
-### Thanks and Support
-
--   Thanks to [@weijunext](https://weijunext.com/) for the open-source landingpage project, which referenced a lot of content
-
-### Let's be friends
-
--   QQ: 123060128
--   Twitter: [@huglemon520](x.com/huglemon520)
--   Email: [karma.zhao@gmail.com](mailto:karma.zhao@gmail.com)
--   Blog: [https://huglemon.com](https://huglemon.com)
-
-### Sponsorship
-
-If this project is helpful to you, you can buy me a can of Red Bull or a cofee
-
-[![buymeacoffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png "buymeacoffee")](https://buymeacoffee.com/huglemon "buymeacoffee")
-![pay qrcode](https://mp-bca925c9-72bc-4e92-8c87-d596015241bf.cdn.bspapp.com/2024/06/29/48706370-14858221-WechatIMG135.jpg)
+游戏壁纸26张
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_06.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_07.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_08.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_09.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_c_02.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_c_03.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_c_04.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_c_05.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_c_06.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_c_07.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_c_08.jpg
+https://www.heishenhua.com/img/Concept/blackmyth_wukong_concept_c_09.jpg
+https://www.heishenhua.com/img/Concept/Concept_guishiwei.jpg
+https://www.heishenhua.com/img/Concept/Concept_heifenshan1.jpg
+https://www.heishenhua.com/img/Concept/Concept_heifenshan2.jpg
+https://www.heishenhua.com/img/Concept/Concept_heifenshan3.jpg
+https://www.heishenhua.com/img/Concept/Concept_heifenshan4.jpg
+https://www.heishenhua.com/img/Concept/Concept_huodaolang.jpg
+https://www.heishenhua.com/img/Concept/Concept_landscape1.jpg
+https://www.heishenhua.com/img/Concept/Concept_landscape2.jpg
+https://www.heishenhua.com/img/Concept/Concept_landscape3.jpg
+https://www.heishenhua.com/img/Concept/Concept_landscape6.jpg
+https://www.heishenhua.com/img/Concept/Concept_langren.jpg
+https://www.heishenhua.com/img/Concept/Concept_lingxudaozhang.jpg
+https://www.heishenhua.com/img/Concept/Concept_tudi.jpg
+https://www.heishenhua.com/img/Concept/Concept_wukong.jpg
