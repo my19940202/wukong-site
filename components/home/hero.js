@@ -7,30 +7,9 @@ import { IoDocumentText } from 'react-icons/io5';
 
 import { useEffect, useState } from 'react';
 export default function Hero({ locale, CTALocale }) {
-    const [tilt, setTilt] = useState(45);
-    const [duration, setDuration] = useState(0.8);
-    const counter = 0;
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const maxTilt = 45; // 最大倾斜角度
-            const scrollY = window.scrollY;
-            const tiltValue = Math.max(maxTilt - scrollY / 8, 0); // 根据滚动值调整
-            setTilt(tiltValue);
-            setDuration(0.3);
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
     const calculateTimeLeft = () => {
         const difference = +new Date('2024-08-20') - +new Date();
         let timeLeft = {};
-    
         if (difference > 0) {
             timeLeft = {
                 days: Math.floor(difference / (1000 * 60 * 60 * 24)),
@@ -39,8 +18,7 @@ export default function Hero({ locale, CTALocale }) {
                 seconds: Math.floor((difference / 1000) % 60)
             };
         }
-        console.log('timeLeft', timeLeft);
-        
+
         return timeLeft;
       };
     
@@ -68,6 +46,8 @@ export default function Hero({ locale, CTALocale }) {
             <section
                 className='relative z-10 flex flex-col items-start md:items-center py-10 md:py-20 overflow-hidden'
             >
+                <video autoPlay loop muted src="https://www.heishenhua.com/video/b1/gamesci_2024_PV07_preview.mp4">
+                </video>
                 <h3 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center mb-5 md:mb-10'>
                 {locale.h3}</h3>
                 <div className='flex justify-center items-center'>

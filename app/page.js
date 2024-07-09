@@ -1,6 +1,7 @@
 import { defaultLocale, getDictionary } from '@/lib/i18n';
 
-import Hero from '@/components/home/videoHero';
+import Hero from '@/components/home/hero';
+import VideoHero from '@/components/home/videoHero';
 import Feature from '@/components/home/feature';
 
 export default async function Home({ params }) {
@@ -11,6 +12,10 @@ export default async function Home({ params }) {
     return (
         <div className='max-w-[1280px] mx-auto'>
             <Hero
+                locale={dict.Feature}
+                langName={langName}
+            />
+            <VideoHero
                 locale={dict.Feature}
                 langName={langName}
             />
