@@ -21,7 +21,7 @@ export default function Hero({ locale, CTALocale }) {
 
         return timeLeft;
       };
-    
+      const pathname = location.pathname;
       const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
     
       useEffect(() => {
@@ -35,19 +35,12 @@ export default function Hero({ locale, CTALocale }) {
     return (
         <>
             <section
-                className='relative z-10 flex flex-col items-start md:items-center py-10 md:py-20 overflow-hidden'
-                style={{ perspective: '800px' }}
+                className='relative z-10 flex flex-col items-start md:items-center py-5 overflow-hidden'
             >
                 <h1 className='font-bold text-5xl md:text-7xl bg-gradient-to-r from-base-content from-50% to-[#9c9c9c] text-center bg-clip-text text-transparent !leading-[1.25em] mb-5'>
                     {locale.h1}
                 </h1>
                 <h2 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center mb-5 md:mb-10'>{locale.h2}</h2>
-            </section>
-            <section
-                className='relative z-10 flex flex-col items-start md:items-center py-10 md:py-20 overflow-hidden'
-            >
-                <video autoPlay loop muted src="https://www.heishenhua.com/video/b1/gamesci_2024_PV07_preview.mp4">
-                </video>
                 <h3 className='w-full md:w-10/12 mx-auto text-xl md:text-2xl text-base-content/80 md:text-center mb-5 md:mb-10'>
                 {locale.h3}</h3>
                 <div className='flex justify-center items-center'>
@@ -78,6 +71,46 @@ export default function Hero({ locale, CTALocale }) {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section
+                className='relative z-10 flex flex-row justify-around overflow-hidden w-1/2 mx-auto'
+            >
+                <a class="btn btn-outline rounded-md" href={pathname + '/worldview'}>
+                    <Image
+                        width={20}
+                        height={20}
+                        src={'/worldview.svg'}
+                        className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
+                        alt='logo'
+                    ></Image>
+                    世界观
+                </a>
+                <a class="btn btn-outline rounded-md" href={pathname + '/character'}>
+                    <Image
+                        width={20}
+                        height={20}
+                        src={'/charcters.svg'}
+                        className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
+                        alt='logo'
+                    ></Image>
+                    角色
+                </a>
+                <a class="btn btn-outline rounded-md" href={pathname + '/source'}>
+                    <Image
+                        width={20}
+                        height={20}
+                        src={'/resource.svg'}
+                        className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
+                        alt='logo'
+                    ></Image>
+                    资源
+                </a>
+            </section>
+            <section
+                className='relative z-10 flex flex-col items-start md:items-center py-5 overflow-hidden'
+            >
+                <video autoPlay loop muted src="https://www.heishenhua.com/video/b1/gamesci_2024_PV07_preview.mp4">
+                </video>
             </section>
         </>
     );

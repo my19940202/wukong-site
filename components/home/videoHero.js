@@ -1,9 +1,5 @@
 'use client';
-import HeroIcons from './icons';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { SiGithub } from 'react-icons/si';
-import { IoDocumentText } from 'react-icons/io5';
 import { useEffect, useState } from 'react';
 
 export default function VideoHero({ locale, CTALocale }) {
@@ -22,8 +18,17 @@ export default function VideoHero({ locale, CTALocale }) {
     }, []);
 
     return (
-        <>
-            <h1>the big video XXXX</h1>
-        </>
+        <div>
+            <button class="btn">
+                <Image
+					width={200}
+					height={200}
+					src={'/worldview.svg'}
+					className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10'
+					alt='logo'
+				></Image>
+                世界观
+            </button>
+        </div>
     );
 }

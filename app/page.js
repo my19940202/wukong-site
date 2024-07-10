@@ -19,10 +19,10 @@ export default async function Home({ params }) {
                 locale={dict.Feature}
                 langName={langName}
             />
-            <Feature
+            {/* <Feature
                 locale={dict.Feature}
                 langName={langName}
-            />
+            /> */}
         </div>
     );
 }
