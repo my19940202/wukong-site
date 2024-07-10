@@ -1,41 +1,15 @@
 {
-	"Hero": {
-		"h1": "黑神话悟空游戏百科",
-		"h2": "欢迎使用 blackmyth.xyz！在这里，您可以找到关于黑神话悟空的有用信息，包括世界观、角色介绍、壁纸和视频等等！",
+    "Title": "黑神话悟空游戏百科",
+     "Hero": {
+          "h1": "黑神话悟空游戏百科",
+          "h2": "欢迎使用 blackmyth.xyz！在这里，您可以找到关于黑神话悟空的有用信息，包括世界观、角色介绍、壁纸和视频等等！",
         "h3": "距离黑神话发布还有"
-	},
-	"Feature": {
-		"h2": "Feature",
-		"h3": "乘风-落地页模板的特点",
-		"description1": "出色的落地页模板。",
-		"description2": "基于Next.JS、DaisyUI、TailwindCSS和其他强大的库。",
-		"description3": "完全开源且完全免费。"
-	},
-	"Pricing": {
-		"h2": "Pricing",
-		"h3": "选择您的计划",
-		"description": "选择最适合您需求的计划。",
-		"doYouLike": "你喜欢这个落地页模板吗？",
-		"follow": "关注我的推特。"
-	},
-	"Testimonial": {
-		"h2": "Testimonial",
-		"h3": "Wall of Love",
-		"description1": "如果您使用这个落地页模板并在您的推特上推荐它，",
-		"description2": "请告诉我",
-		"description3": "，我会在这里展示您的推文和推荐。"
-	},
-	"Faq": {
-		"h2": "FAQ",
-		"h3": "常见问题",
-		"description": "以下是一些最常见的问题。"
-	},
-	"CTA": {
-		"h2": "立即构建您的落地页",
-		"h3": "构建您的落地页，展示您的产品，并开始盈利！"
-	},
-	"CTAButton": {
-		"btn1": "获取源代码",
-		"btn2": "查看文档"
-	}
+     },
+     "Feature": {
+          "h2": "Feature",
+          "h3": "乘风-落地页模板的特点",
+          "description1": "出色的落地页模板。",
+          "description2": "基于Next.JS、DaisyUI、TailwindCSS和其他强大的库。",
+          "description3": "完全开源且完全免费。"
+     }
 }
