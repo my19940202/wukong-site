@@ -130,3 +130,4 @@ https://www.heishenhua.com/img/Concept/Concept_wukong.jpg
 
 # 技术栈
 - https://daisyui.com/components/carousel/#slide4
+- blog页面参考 https://pokerogue.cc/zh/blogs
