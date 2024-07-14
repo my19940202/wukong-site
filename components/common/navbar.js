@@ -4,7 +4,6 @@ import { MdMenu } from 'react-icons/md';
 import { useEffect, useState } from 'react';
 import ThemeToggle from './themeToggle';
 import LangSwitch from './langSwitch';
-
 import { usePathname } from 'next/navigation';
 import { defaultLocale } from '@/lib/i18n';
 import { NavLinksList } from '@/lib/navLinksList';
