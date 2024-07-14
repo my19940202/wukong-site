@@ -1,4 +1,4 @@
-export default function About() {
+export default function Worldview() {
 	return <div className="max-w-[1280px] mx-auto py-2">
         <div class="breadcrumbs text-sm">
             <ul>
