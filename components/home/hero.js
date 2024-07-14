@@ -79,7 +79,7 @@ export default function Hero({ locale, CTALocale }) {
                     <Image
                         width={20}
                         height={20}
-                        src={'/worldview.svg'}
+                        src={'/icon/worldview.svg'}
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
                     ></Image>
@@ -89,7 +89,7 @@ export default function Hero({ locale, CTALocale }) {
                     <Image
                         width={20}
                         height={20}
-                        src={'/charcters.svg'}
+                        src={'/icon/charcters.svg'}
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
                     ></Image>
@@ -99,7 +99,7 @@ export default function Hero({ locale, CTALocale }) {
                     <Image
                         width={20}
                         height={20}
-                        src={'/resource.svg'}
+                        src={'/icon/source.svg'}
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
                     ></Image>
@@ -107,9 +107,9 @@ export default function Hero({ locale, CTALocale }) {
                 </a>
             </section>
             <section
-                className='relative z-10 flex flex-col items-start md:items-center py-5 overflow-hidden'
+                className='relative z-10 flex flex-col items-start md:items-center py-5 overflow-hidden hidden'
             >
-                <video autoPlay loop muted src="https://www.heishenhua.com/video/b1/gamesci_2024_PV07_preview.mp4">
+                <video autoPlay loop muted src="/video/video_preview.mp4">
                 </video>
             </section>
         </>

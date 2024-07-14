@@ -12,10 +12,10 @@ export default async function Home({ params }) {
                 locale={dict.Hero}
                 CTALocale={dict.CTAButton}
             />
-            <Feature
+            {/* <Feature
                 locale={dict.Feature}
                 langName={langName}
-            />
+            /> */}
         </div>
     );
 }
