@@ -19,9 +19,6 @@
 # misc
 .DS_Store
 *.pem
-/public/screenshot
-/public/concept
-/public/wallpaper
 
 # debug
 npm-debug.log*

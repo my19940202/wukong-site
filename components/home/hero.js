@@ -76,33 +76,33 @@ export default function Hero({ locale, CTALocale }) {
                 className='relative z-10 flex flex-row justify-around overflow-hidden w-1/2 mx-auto'
             >
                 <a class="btn btn-outline rounded-md" href={pathname + '/worldview'}>
-                    <Image
+                    <img
                         width={20}
                         height={20}
-                        src={'/icon/worldview.svg'}
+                        src='https://rew6x5abdynwrxgh.public.blob.vercel-storage.com/imgs/icon/worldview.svg'
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
-                    ></Image>
+                    />
                     世界观
                 </a>
                 <a class="btn btn-outline rounded-md" href={pathname + '/character'}>
-                    <Image
+                    <img
                         width={20}
                         height={20}
-                        src={'/icon/charcters.svg'}
+                        src='https://rew6x5abdynwrxgh.public.blob.vercel-storage.com/imgs/icon/charcters.svg'
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
-                    ></Image>
+                    />
                     角色
                 </a>
                 <a class="btn btn-outline rounded-md" href={pathname + '/source'}>
-                    <Image
+                    <img
                         width={20}
                         height={20}
-                        src={'/icon/source.svg'}
+                        src='https://rew6x5abdynwrxgh.public.blob.vercel-storage.com/imgs/icon/source.svg'
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
-                    ></Image>
+                    />
                     资源
                 </a>
             </section>

@@ -1,4 +1,6 @@
 // 博客页面先简单渲染一个布局
+import {worldview_data} from './config';
+
 export default function Blog() {
     return <div className="max-w-[1280px] mx-auto py-2">
         <div className="max-w-5xl mx-auto bg-white shadow-md rounded-lg overflow-hidden">
