@@ -1,8 +1,9 @@
 // 图片页面的常量
 
 const environment = process.env.NODE_ENV;
-const prefix = environment !== 'development'
-    ? 'https://rew6x5abdynwrxgh.public.blob.vercel-storage.com/imgs' : '';
+const prefix = '';
+    // environment !== 'development'
+    // ? 'https://rew6x5abdynwrxgh.public.blob.vercel-storage.com/imgs' : '';
 
     export const WALLPAPER_IMAGE_LIST = [
     '/wallpaper/Wallpaper1.jpg',
