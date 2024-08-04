@@ -19,6 +19,7 @@
 给自己个人网站导流
 
 # 技术栈
+- [模板说明](https://www.huglemon.com/blog/i-open-sourced-a-saas-landing-page)
 - [daisyui](https://daisyui.com/components/carousel/#slide4)
 - [blog页面参考](https://pokerogue.cc/zh/blogs)
 - [tailwind css速查](https://www.tailwindcss.cn/docs/background-color)

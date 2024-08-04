@@ -107,9 +107,9 @@ export default function Hero({ locale, CTALocale }) {
                 </a>
             </section>
             <section
-                className='relative z-10 flex flex-col items-start md:items-center py-5 overflow-hidden hidden'
+                className='relative z-10 flex flex-col items-start md:items-center py-5 overflow-hidden'
             >
-                <video autoPlay loop muted src="/video/video_preview.mp4">
+                <video autoPlay loop muted src="https://rew6x5abdynwrxgh.public.blob.vercel-storage.com/video/index/index-video-preview-lQrj7Lws3tob4Nt6YbYqcc6pE8FOY0.mp4">
                 </video>
             </section>
         </>

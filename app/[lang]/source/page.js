@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import {WALLPAPER_IMAGE_LIST, SCREENSHOT_IMAGE_LIST, CONCEPT_IMAGE_LIST} from './constants.js';
 
@@ -83,9 +84,12 @@ export default function Source() {
                             key={idx}
                             onClick={e => handleModal('open', idx)}
                             className="card card-compact bg-base-100 w-96 shadow-xl m-2 cursor-pointer justify-center">
-                            <figure>
-                                <img src={item} alt="Shoes" />
-                            </figure>
+                            <Image
+                                width={384}
+                                height={216}
+                                src={item}
+                                alt='black mythy wukong screenshot wallpaper concept images'
+                            ></Image>
                         </div>
                     ))
                 }
