@@ -19,10 +19,11 @@
 给自己个人网站导流
 
 # 技术栈
-- https://daisyui.com/components/carousel/#slide4
-- blog页面参考 https://pokerogue.cc/zh/blogs
-- tailwind css速查 https://www.tailwindcss.cn/docs/background-color
-- svg资源速查 https://icon-sets.iconify.design/streamline-emojis/monkey-face/
+- [daisyui](https://daisyui.com/components/carousel/#slide4)
+- [blog页面参考](https://pokerogue.cc/zh/blogs)
+- [tailwind css速查](https://www.tailwindcss.cn/docs/background-color)
+- [svg资源速查](https://icon-sets.iconify.design/streamline-emojis/monkey-face/)
 
 # 参考信息
-- B站采集高质量内容 https://search.bilibili.com/all?keyword=%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA&from_source=webtop_search&spm_id_from=333.1007&search_source=5
+- [palworldgg](https://palworldgg.com/zh/)
+- [B站采集高质量内容](https://search.bilibili.com/all?keyword=%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA&from_source=webtop_search&spm_id_from=333.1007&search_source=5)

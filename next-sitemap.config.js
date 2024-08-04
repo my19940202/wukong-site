@@ -1,5 +1,5 @@
 module.exports = {
-	siteUrl: 'https://landingpage.huglemon.com',
+	siteUrl: 'https://www.blackmyth.top',
 	generateRobotsTxt: true,
 	sitemapSize: 7000,
 };

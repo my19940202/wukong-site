@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	images: {
-		remotePatterns: [
-			{
-				protocol: 'https',
-				hostname: 'landingpage.huglemon.com',
-			},
-		],
-	},
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'www.blackmyth.top',
+            },
+        ],
+    },
 };
 
 export default nextConfig;
