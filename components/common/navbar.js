@@ -41,7 +41,7 @@ export default function Navbar() {
                     alt='logo'
                 ></Image>
                 <h2 className='ml-3 font-bold leading-5'>Blck Myth Wukong</h2>
-                <span class="icon-[streamline-emojis--monkey-face]"></span>
+                <span className="icon-[streamline-emojis--monkey-face]"></span>
             </a>
             <ul className='w-3/5 px-5 font-medium hidden md:flex flex-nowrap items-center justify-around'>
                 {linkList.map((link, index) => {

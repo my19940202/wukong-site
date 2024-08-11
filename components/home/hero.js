@@ -75,7 +75,7 @@ export default function Hero({ locale, CTALocale }) {
             <section
                 className='relative z-10 flex flex-row justify-around overflow-hidden w-1/2 mx-auto'
             >
-                <a class="btn btn-outline rounded-md" href={pathname + '/worldview'}>
+                <a className="btn btn-outline rounded-md" href={pathname + '/worldview'}>
                     <img
                         width={20}
                         height={20}
@@ -85,7 +85,7 @@ export default function Hero({ locale, CTALocale }) {
                     />
                     世界观
                 </a>
-                <a class="btn btn-outline rounded-md" href={pathname + '/character'}>
+                <a className="btn btn-outline rounded-md" href={pathname + '/character'}>
                     <img
                         width={20}
                         height={20}
@@ -95,7 +95,7 @@ export default function Hero({ locale, CTALocale }) {
                     />
                     角色
                 </a>
-                <a class="btn btn-outline rounded-md" href={pathname + '/source'}>
+                <a className="btn btn-outline rounded-md" href={pathname + '/source'}>
                     <img
                         width={20}
                         height={20}

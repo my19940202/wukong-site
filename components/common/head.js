@@ -1,5 +1,6 @@
-import React from 'react';
+'use client';
 
+import React from 'react';
 // https://tagmanager.google.com/?utm_campaign=SuiteHeader&utm_source=UniversalPicker&utm_medium=getStarted#/container/accounts/6245201629/containers/192925405/workspaces/2
 // https://tagmanager.google.com/#/container/accounts/6245201629/containers/192925405/workspaces/4
 // google anayse不大好用

@@ -19,7 +19,7 @@ export default function VideoHero({ locale, CTALocale }) {
 
     return (
         <div>
-            <button class="btn">
+            <button className="btn">
                 <Image
 					width={200}
 					height={200}
