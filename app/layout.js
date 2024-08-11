@@ -27,6 +27,12 @@ export default async function RootLayout({ children }) {
                 <CustomHead />
             </head>
             <body>
+                <noscript>
+                    <iframe
+                        src="https://www.googletagmanager.com/ns.html?id=GTM-NZX6W46L"
+                        height="0" width="0" style="display:none;visibility:hidden">
+                    </iframe>
+                </noscript>
                 <ThemeProvider>
                     <div className='w-full min-h-svh text-base-content bg-base-100'>
                         <Navbar />
