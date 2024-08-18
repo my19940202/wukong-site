@@ -18,9 +18,9 @@ export default function Worldview() {
         </div>
         <div className="flex flex-row flex-wrap justify-items-start" >
             {
-                data[langName].map(item => {
+                data[langName].map((item, idx) => {
                     return (
-                        <Link href={`/${langName}/blog?title=${item.query}`} class="card card-compact bg-base-100 w-96 shadow-xl m-2">
+                        <Link key={idx} href={`/${langName}/blog?title=${item.query}`} class="card card-compact bg-base-100 w-96 shadow-xl m-2">
                             <figure>
                                 <Image
                                     width={400}
