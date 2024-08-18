@@ -1,14 +1,12 @@
 {
     "Title": "Black Myth: Wukong",
-	"Hero": {
-		"h1": "Black Myth Wukong Game information site",
-		"h2": "Welcome to Blackmyth.xyz! Here, you can find useful information about the Black Myth of Wukong, including worldviews, character introductions, wallpapers, videos, and more!"
-	},
-	"Feature": {
-		"h2": "Our Feature",
-		"h3": "Features of inWind Landing Page Template",
-		"description1": "Awesome landing page template.",
-		"description2": "Based on Next.JS, DaisyUI, TailwinCSS and other powerful libary.",
-		"description3": "Completely open source and completely free."
-	}
+    "Hero": {
+        "h1": "Black Myth Wukong Game information site",
+        "h2": "Welcome to blackmyth.top! Here, you can find useful information about the Black Myth of Wukong, including worldviews, character introductions, wallpapers, videos, and more!",
+        "worldview": "Worldview",
+        "character": "Character",
+        "source": "Source"
+    },
+    "Feature": {
+    }
 }

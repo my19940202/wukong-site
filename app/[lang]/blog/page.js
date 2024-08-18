@@ -13,6 +13,7 @@ const DynamicTagComponent = ({ type, children, ...rest}) => {
 
 export default function Blog() {
     const pathname = usePathname();
+    const langName = pathname.split('/')[1];
     const params = useSearchParams();
     const title = params.get('title');
     const article = blog_data[title];
@@ -28,7 +29,7 @@ export default function Blog() {
             />
             <div className="p-6">
                 {
-                    article.list.map((item, idx) => {
+                    article[`list_${langName}`].map((item, idx) => {
                         const {classname, attr, ...rest} = item;
                         return (
                             <DynamicTagComponent key={idx} className={classname} type={attr} {...rest}>

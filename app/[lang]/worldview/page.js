@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import {data} from './config';
 
 export default function Worldview() {
     const pathname = usePathname();
@@ -16,34 +17,26 @@ export default function Worldview() {
             </ul>
         </div>
         <div className="flex flex-row flex-wrap justify-items-start" >
-            <Link href={`/${langName}/blog?title=journey_to_west_worldview`} class="card card-compact bg-base-100 w-96 shadow-xl m-2">
-                <figure>
-                    <Image
-                        width={400}
-                        height={200}
-                        src={'/blog/old_monkey.jpg'}
-                        alt='logo'
-                    />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">西游记-游戏世界观设定</h2>
-                    <p>西游记界观设定:故事背景、地理分布和种族情况</p>
-                </div>
-            </Link>
-            <Link href={`/${langName}/blog?title=why_monster_wants_to_be_human`} class="card card-compact bg-base-100 w-96 shadow-xl m-2">
-                <figure>
-                    <Image
-                        width={400}
-                        height={200}
-                        src={'/blog/spider_sprit.jpg'}
-                        alt='logo'
-                    />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">为什么妖怪想要变成人</h2>
-                    <p>怪物们修炼的目的不一定是变强，还有可能是变成人</p>
-                </div>
-            </Link>
+            {
+                data[langName].map(item => {
+                    return (
+                        <Link href={`/${langName}/blog?title=${item.query}`} class="card card-compact bg-base-100 w-96 shadow-xl m-2">
+                            <figure>
+                                <Image
+                                    width={400}
+                                    height={200}
+                                    src={item.img}
+                                />
+                            </figure>
+                            <div class="card-body">
+                                <h2 class="card-title">{item.title}</h2>
+                                <p>{item.desc}</p>
+                            </div>
+                        </Link>
+                    )
+                })
+            }
+
         </div>
     </div>;
 }

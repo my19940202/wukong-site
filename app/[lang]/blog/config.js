@@ -15,7 +15,7 @@ export const journey_to_west_worldview = {
         w: 800,
         h: 563
     },
-    list: [
+    list_zh: [
         {
             attr: 'h1',
             classname: classNameMap.h1,
@@ -141,6 +141,131 @@ export const journey_to_west_worldview = {
                 佛：在《西游记》构建的神佛世界中，分为横竖三世佛。竖三世佛，指时间维度上的三佛，分别是过去佛燃灯佛、现在佛释迦牟尼佛（如来）、未来佛弥勒佛；横三世佛，指空间维度上的三佛，分别是东方净琉璃世界的药师如来、中央娑婆世界的释迦牟尼佛、西方极乐世界的阿弥陀佛。
             `
         }
+    ],
+    list_en: [
+        {
+            attr: 'h1',
+            classname: classNameMap.h1,
+            content: 'Worldview setting'
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                The worldview of Journey to the West is very interesting as it is actually a mixture of Buddhism, Taoism and Confucianism, with not only immortals practicing immortality, but also Buddhists practicing Zen. There are different realms in this mixed worldview, including the human realm, the heavenly realm and the underworld.
+            `
+        },
+        {
+            attr: 'h2',
+            classname: classNameMap.h2,
+            content: 'Background'
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                The story is based on the real historical events of the Tang Dynasty monk Xuanzang's journey to the West. In the first year of Emperor Tang Taizong's reign (627), the 25-year-old Venerable Xuanzang set off from Chang'an and traveled through Central Asia, Afghanistan, Pakistan and other places, and finally arrived in India after enduring hardships and dangers.
+                After studying Buddhism there for more than two years, he brought back 657 Buddhist scriptures in the 19th year of Zhenguan (645). Later, Xuanzang oral account of his journey to the west, his disciples Hui Li, Yen-Tsang wrote the “Great Tang Ci'en Temple Sanzang Venerable Master Biography” for Xuanzang's experience adds a lot of mythological color, and the story of the Tang monk to obtain the scriptures, the Tang monk to obtain the scriptures of the world.
+                From then on, the story of the Tang monk fetching scriptures began to be widely circulated in the folklore.
+            `
+        },
+        {
+            attr: 'h2',
+            classname: classNameMap.h2,
+            content: 'Map'
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                The world of Journey to the West is divided into three main levels: the Heavenly Court, the Mortal World and the Underworld.
+                The Heavenly Court is the residence of most of the gods and immortals, and there exists a mechanism like the court of an ancient feudal empire, which is in charge of all the important affairs of the whole world.
+                The Mortal World is where humans and animals live, and there are also demons, Buddhist deities and some immortals.
+                The Underworld is the organ in charge of the souls of the world's living beings after death, and its officials are all immortals and Buddhist deities, also under the control of the Heavenly Court.
+            `
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                In the basic classic of primitive Buddhism, “Ahan Sutra”, there are four continents on earth, respectively, in the four directions of Mount Sumeru in the Aral Sea, that is, the four great continents, Dongsheng Divine Continent, South Alimony, West Niuga Continent and North Juruzhou, respectively.
+                Respectively represents the human society inside the four social classes, in the “Journey to the West” by the author Wu Chengen borrowed, as the novel's worldview setting.
+            `
+        },
+        {
+            attr: 'img',
+            classname: 'w-1/2 m-auto',
+            src: 'https://636c-cloud1-5g5eyjtze161c202-1319072486.tcb.qcloud.la/static/wukong/blog/world.webp'
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                The Eastern Victory Divine Continent: Located in the east of Mount Sumeru, the land is narrow in the east and wide in the west, shaped like a half-moon, with a human body eight elbows long and a life span of 250 years. The continent is characterized by three things: the land is extremely wide, extremely large and extremely wonderful.
+            `
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                Sai Niuga Continent: Located in the west of Mount Sumeru, its soil is shaped like a full moon, and the human face is also like a full moon; the human body is sixteen elbows long, and the human life span is five hundred years. The continent has three things that make it special: many cows, many sheep, and many jewels.
+            `
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                South Alimony: located in the south of the Sumeru Mountains, its land south narrow north wide, shaped like a carriage, the human body is four elbows long, life expectancy of a hundred years, but there are many premature deaths. The people of the continent is brave and strong memory and can make karma line, can practice Brahma line, there is a Buddha in its land, so the three things are better than the other three continents and the heavens.
+            `
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                The North Club Continent: Located north of Mount Sumeru, the land is square, like a pond, with a human body 32 elbows long and a life expectancy of 1,000 years, with no premature deaths. The people of this continent live equally and happily, with no worries.
+            `
+        },
+        {
+            attr: 'h2',
+            classname: classNameMap.h2,
+            content: 'Races'
+        },
+        // 妖精鬼怪，神佛仙
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                People: refers to the mortal human beings, who live in a country in South Jambudvipa, that is, the Eastern Land of the Great Tang. In the worldview of Journey to the West, people are in a more vulnerable position, need to face the threat of various demons and monsters, but also sheltered and guided by the gods and Buddha.
+            `
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                Demon: Usually refers to the existence of animals, plants or inanimate objects that have gained spirituality through cultivation or some special chance, and have been transformed into a being with human form and certain spellcasting ability. Examples include fox spirits and tree demons. Their cultivation is often not so orthodox and they may endanger the earth for their own interests.
+            `
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                Ghosts and Monsters:Ghosts generally refer to the souls of people who have died, and are often considered to be eerie and terrifying beings. Monsters, on the other hand, are spirits with strange shapes and bizarre behaviors. For example, hanged ghosts and mountain monsters.
+            `
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                Gods: These include the five categories of Heavenly Immortals, Earth Immortals, Divine Immortals, Human Immortals and Ghost Immortals. Among them, the Jade Emperor, the Supreme Lord Laojun and the Pagoda Heavenly King are all heavenly immortals; the three stars of blessing, fortune and longevity, who live in the fairyland of Penglai, are the representatives of the gods; the ancestor of the earthly immortals is Zhen Yuan Daxian of the Wujuang Guan; the Golden Pond Elder, who wants to take over the Tang Monk's brocade robes, belongs to the Human Immortals; and the City God and Land are the representatives of the Ghost Immortals.
+            `
+        },
+        {
+            attr: 'p',
+            classname: classNameMap.p,
+            content: `
+                Buddha: In the world of gods and Buddhas constructed in Journey to the West, it is divided into the horizontal and vertical three Buddhas. The Vertical Three Buddhas, referring to the three Buddhas in the dimension of time, are the past Buddha, the Burning Lamp Buddha, the present Buddha, Shakyamuni Buddha (Rudra), and the future Buddha, Maitreya Buddha; and the Horizontal Three Buddhas, referring to the three Buddhas in the dimension of space, are the Yakshi Rudra in the Eastern Pure Glazed World, the Shakyamuni Buddha in the Central Saha World, and the Amitabha Buddha in the Western World of Ultimate Bliss.
+            `
+        }
     ]
 };
 
@@ -150,7 +275,7 @@ export const why_monster_wants_to_be_human = {
         w: 800,
         h: 563
     },
-    list: [
+    list_zh: [
         {
             attr: 'h1',
             classname: classNameMap.h1,
@@ -160,39 +285,15 @@ export const why_monster_wants_to_be_human = {
             attr: 'p',
             classname: classNameMap.p,
             content: `
-                《西游记》的世界观十分有意思，它实际上是佛道儒三家的混合体，不仅有着修仙的神仙，同样也有修禅的佛祖。
-                在这种混杂的世界观中有着不同的位面，包括人界、仙界、神界、魔界、妖界和冥界
-                妖精鬼怪，神佛仙魔
-            `
-        },
-        {
-            attr: 'p',
-            classname: classNameMap.p,
-            content: `
-                人：指的是凡间的人类，他们生活在南赡部洲的一个国家，即东土大唐。在《西游记》的世界观中，人处于较为弱势的地位，需要面对各种妖魔鬼怪的威胁，同时也受到神仙和佛祖的庇护和指引。
-            
-            `
-        },
-        {
-            attr: 'p',
-            classname: classNameMap.p,
-            content: `
-                妖：由畜生修炼而成，具有人形或近似人形，白天晚上均可活动。它们大多都是来自妖界，与人界相邻，这也是为什么人界的妖怪这么多的原因。其中，巡山小妖、即将化形的妖、幻化成人的妖、声名赫赫的妖、袭击大神通者的妖、神仙坐骑、上古妖圣，这些是《西游记》中对妖怪的分类。
-            `
-        },
-        {
-            attr: 'p',
-            classname: classNameMap.p,
-            content: `
-                神：包括天仙、地仙、神仙、人仙和鬼仙五类。其中，玉帝、太上老君、托塔天王等都是天仙；居住在蓬莱仙境的福禄寿三星，是神仙的代表；地仙之祖是五庄观的镇元大仙；想霸占唐僧锦斓袈裟的金池长老，属于人仙；城隍土地是鬼仙的代表。
-            `
-        },
-        {
-            attr: 'p',
-            classname: '',
-            content: `
-                佛：在《西游记》构建的神佛世界中，分为横竖三世佛。竖三世佛，指时间维度上的三佛，分别是过去佛燃灯佛、现在佛释迦牟尼佛（如来）、未来佛弥勒佛；横三世佛，指空间维度上的三佛，分别是东方净琉璃世界的药师如来、中央娑婆世界的释迦牟尼佛、西方极乐世界的阿弥陀佛。
+                
             `
         }
+    ],
+    list_en: [
+        {
+            attr: 'h1',
+            classname: classNameMap.h1,
+            content: '为什么妖怪想要变成人'
+        },
     ]
 };

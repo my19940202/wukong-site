@@ -1,9 +1,6 @@
 'use client';
 import HeroIcons from './icons';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { SiGithub } from 'react-icons/si';
-import { IoDocumentText } from 'react-icons/io5';
 
 import { useEffect, useState } from 'react';
 export default function Hero({ locale, CTALocale }) {
@@ -83,7 +80,7 @@ export default function Hero({ locale, CTALocale }) {
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
                     />
-                    世界观
+                    {locale.worldview}
                 </a>
                 <a className="btn btn-outline rounded-md" href={pathname + '/character'}>
                     <img
@@ -93,7 +90,7 @@ export default function Hero({ locale, CTALocale }) {
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
                     />
-                    角色
+                    {locale.character}
                 </a>
                 <a className="btn btn-outline rounded-md" href={pathname + '/source'}>
                     <img
@@ -103,7 +100,7 @@ export default function Hero({ locale, CTALocale }) {
                         className='transition-all hover:scale-110 w-6 md:w-10 h-6 md:h-10 dark:bg-white dark:rounded-md'
                         alt='logo'
                     />
-                    资源
+                    {locale.source}
                 </a>
             </section>
             <section
