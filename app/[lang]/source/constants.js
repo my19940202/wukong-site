@@ -5,7 +5,7 @@ const prefix = '';
     // environment !== 'development'
     // ? 'https://rew6x5abdynwrxgh.public.blob.vercel-storage.com/imgs' : '';
 
-    export const WALLPAPER_IMAGE_LIST = [
+export const WALLPAPER_IMAGE_LIST = [
     '/wallpaper/Wallpaper1.jpg',
     '/wallpaper/Wallpaper2.jpg',
     '/wallpaper/Wallpaper3.jpg',

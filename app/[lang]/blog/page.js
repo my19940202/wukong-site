@@ -7,8 +7,8 @@ import React from 'react';
 // https://nextjs.org/docs/app/api-reference/functions/use-search-params
 import { usePathname, useSearchParams } from 'next/navigation';
 
-const DynamicTagComponent = ({ type, className, children }) => {
-    return React.createElement(type, {className}, children);
+const DynamicTagComponent = ({ type, children, ...rest}) => {
+    return React.createElement(type, rest, children);
 };
 
 export default function Blog() {
@@ -29,8 +29,9 @@ export default function Blog() {
             <div className="p-6">
                 {
                     article.list.map((item, idx) => {
+                        const {classname, attr, ...rest} = item;
                         return (
-                            <DynamicTagComponent key={idx} className={item.classname} type={item.attr}>
+                            <DynamicTagComponent key={idx} className={classname} type={attr} {...rest}>
                                 {item.content}
                             </DynamicTagComponent>
                         );

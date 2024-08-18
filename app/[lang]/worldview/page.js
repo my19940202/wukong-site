@@ -27,7 +27,7 @@ export default function Worldview() {
                 </figure>
                 <div class="card-body">
                     <h2 class="card-title">西游记-游戏世界观设定</h2>
-                    <p>西游记界观设定:妖精鬼怪神佛仙魔</p>
+                    <p>西游记界观设定:故事背景、地理分布和种族情况</p>
                 </div>
             </Link>
             <Link href={`/${langName}/blog?title=why_monster_wants_to_be_human`} class="card card-compact bg-base-100 w-96 shadow-xl m-2">
@@ -44,20 +44,6 @@ export default function Worldview() {
                     <p>怪物们修炼的目的不一定是变强，还有可能是变成人</p>
                 </div>
             </Link>
-            {/* <div class="card card-compact bg-base-100 w-96 shadow-xl m-2">
-                <figure>
-                    <Image
-                        width={400}
-                        height={200}
-                        src={'/blog/young_monkey.jpg'}
-                        alt='logo'
-                    />
-                </figure>
-                <div class="card-body">
-                    <h2 class="card-title">为什么中国妖怪想要变成人</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                </div>
-            </div> */}
         </div>
     </div>;
 }

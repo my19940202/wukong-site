@@ -30,3 +30,4 @@
 - [B站采集高质量内容](https://search.bilibili.com/all?keyword=%E9%BB%91%E7%A5%9E%E8%AF%9D%E6%82%9F%E7%A9%BA&from_source=webtop_search&spm_id_from=333.1007&search_source=5)
 - [nextjs教程](https://nextjs.xiaofany.com/guide/deployment.html)
 - [西游记游戏资源](http://xy.linekong.com/static/article_000/000/460_357.shtml)
+- [B站也有类似的wiki站](https://wiki.biligame.com/wukong/%E6%96%87%E7%AB%A0)
