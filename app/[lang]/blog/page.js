@@ -4,6 +4,7 @@
 import * as blog_data from './config';
 import Image from 'next/image';
 import React from 'react';
+// https://nextjs.org/docs/app/api-reference/functions/use-search-params
 import { usePathname, useSearchParams } from 'next/navigation';
 
 const DynamicTagComponent = ({ type, className, children }) => {
@@ -13,7 +14,6 @@ const DynamicTagComponent = ({ type, className, children }) => {
 export default function Blog() {
     const pathname = usePathname();
     const params = useSearchParams();
-    console.log('pathname', pathname, params);
     const title = params.get('title');
     const article = blog_data[title];
 
