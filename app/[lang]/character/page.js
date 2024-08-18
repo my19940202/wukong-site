@@ -17,9 +17,9 @@ export default function Character() {
         </div>
         <div className="flex flex-row flex-wrap justify-items-start" >
             {
-                data.map(item => {
+                data.map((item, idx) => {
                     return (
-                        <div class="card card-compact bg-base-100 w-70 shadow-xl m-2">
+                        <div key={idx} class="card card-compact bg-base-100 w-70 shadow-xl m-2">
                             <figure>
                                 <Image
                                     width={300}
